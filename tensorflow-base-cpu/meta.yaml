@@ -1,4 +1,4 @@
-{% set version = "1.12.0" %}
+{% set version = "1.13.1" %}
 
 # This is the recipe for the "mkl" and "eigen" variants of tensorflow-base
 package:
@@ -39,7 +39,7 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
-    - bazel >=0.15.0
+    - bazel >=0.15.0,<0.22.0
   host:
     # conda build requirements
     - bazel >=0.15.0

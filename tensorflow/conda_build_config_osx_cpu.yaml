@@ -18,6 +18,7 @@ py_version:
   - 3.6
   - 2.7
   - 3.6
+  - 3.7
 zip_keys:
   - full_base_version
   - select_version
